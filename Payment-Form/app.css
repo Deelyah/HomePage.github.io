@@ -1,3 +1,123 @@
+*{
+    background-color: #FF0000;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 200%;
+    animation: h2-load 3s;
+}
+
+@keyframes h2-load{
+    0%{
+        transform: translateY(-100%)
+    } 
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+h4{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+    color: #fff;
+}
+
+i{
+    color: #fff;
+}
+
+.input-box{
+    display: grid;
+    align-items: center;
+    margin-left: 2em;
+}
+
 .name{
-    padding: 1.2em;
+    padding: 1.0em;
+    margin: 0.5em;
+    width: 90%;
+    border: 0 solid white;
+    border-radius: 22px;
+    background-color:#fff;
+    box-shadow: 3px 4px rgba(10, 10, 10, 0.767); 
+    animation: name-load 4s;
+}
+
+.name:focus{
+    outline: 1px solid transparent;
+    box-shadow: -3px 4px black;
+}
+
+@keyframes name-load{
+    0%{
+        transform: translatex(-100%)
+    } 
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.input-box{
+    display: inline;
+}
+
+.dob{
+    display: inline;
+    padding: 0.8%;
+    margin-left: 2.5% ;
+    margin-right: 0em;
+    width: 28%;
+    border: 0 solid white;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 3px 4px black;
+    animation: dob-load 4s;
+}
+
+.dob:focus{
+    outline: 1px solid transparent;
+}
+
+@keyframes dob-load{
+    0%{
+        transform: translateX(100%)
+    } 
+
+    100%{
+        transform: translateX(o);
+    }
+}
+
+.radio{
+    margin: 1em;
+}
+
+.input-box > select{
+    display: inline;
+    margin: 2em;
+    padding: 0.5em;
+    box-shadow: 3px 4px black;
+}
+
+.input-box > button{
+    margin-left: 35%;
+    background-color: #fff;
+    padding: 1em;
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 3px 4px rgba(12, 12, 12, 0.822);
+}
+
+.input-box > button:hover{
+    box-shadow: -3px 4px black;
 }
