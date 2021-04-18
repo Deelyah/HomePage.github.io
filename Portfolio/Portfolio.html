@@ -13,16 +13,15 @@
             <input type="checkbox" name="" id="check">
             <div class="logo-container">
                 <h3 class="logo">DEL<span>SOFT</span></h3>
-                <img src="Images/Logo.png" alt="" class="Log">
             </div>
             <div class="nav-btn">
                 <div class="nav-links">
                     <ul>
                         <li class="nav-link">
-                            <a href="">Home</a> 
+                            <a href="#Home">Home</a> 
                         </li>
                         <li class="nav-link">
-                            <a href="">Skills</a>
+                            <a href="#Skills">Skills</a>
                         </li>
                         <li class="nav-link">
                             <a href="">Education</a>
@@ -31,7 +30,7 @@
                             <a href="">About</a>
                         </li>
                         <li class="nav-link">
-                            <a href="">Contact Me</a>
+                            <a href="#Contact">Contact Me</a>
                         </li>
                     </ul>
                 </div>
@@ -45,22 +44,78 @@
         </div>
     </header>
     
-    <main class="home-container">
+    <main id="home" class="home-container">
         <div class="inner-home-container">
-            <img src="Images/home-background3.jpg" alt="Success">
             <div class="content">
-                <h2>Hello World</h2>
+                <h2>I am Cordelia Ukpai <br> A Web Developer</h2>
+                <button><a href="https://docs.google.com/document/d/1OG5E1HfxLJCSmO0mNPFR0Yq4DVHLwzL8/edit">View Cordelia's Resume</a></button>
+            </div>
+            <img src="Images/mac.jpg" alt="Success">
+        </div>
+    </main>
+
+    <main id="Skills" class="skills-container">
+        <div class="hold">
+            <h3>Web Development Skills</h3>
+        <div class="flex-container">
+            <div class="flex-box"><img  class="skill html" src="Images/Html-logo.jpg" alt="HTML-LOGO"><h5>Html</h5></div>
+            <div class="flex-box"><img src="Images/css-logo.jpg" alt="CSS-LOGO" class="skill Css"><h5>CSS</h5></div>
+            <div class="flex-box"><img src="Images/javascript-logo.jpg" alt="" class="skill js"><h5>JAVASCRIPT</h5></div>
+            <div class="flex-box"><img src="Images/vue-logo.jpeg" alt="Vue.js" class="skill vue"><h5>VUE.js</h5></div>
+        </div>
+        </div>
+    </main>
+
+    <main  class="skill-container">
+        <div class="hold2">
+            <h3>Soft Skills</h3>
+            <div class="flexy-container">
+                <div class="flex-box"><img  class="skill html" src="Images/Communication.jpg"><h5>Communication</h5></div>
+                <div class="flex-box"><img class="skill team" src="Images/Team-work.jpg"><h5>Team Work</h5></div>
+            </div>
+
+            <div class="lead-container">
+                <div class="flex-box"><img  class="skill lead" src="Images/leadership.jpg" alt="HTML-LOGO"><h5>leadership</h5></div>
+                
+            </div>
+
+            <div class="flexy-container">
+                <div class="flex-box"><img src="Images/Time_manage.jpg" alt="" class="skill js"><h5>Time <br><span>Management</span></h5></div>
+                <div class="flex-box"><img src="Images/conflict.jpg" alt="Vue.js" class="skill vue"><h5>conflict<br><span>Resolution</span></h5></div>
             </div>
         </div>
     </main>
 
-    <main class="skills-container">
-        <div class="flex-container">
-            <div class="flex-box"><img  class="skill html" src="Images/Html-logo.jpg" alt="HTML-LOGO"></div>
-            <div class="flex-box"><img src="Images/css-logo.jpg" alt="CSS-LOGO" class="skill Css"></div>
-            <div class="flex-box"><img src="Images/javascript-logo.jpg" alt="" class="skill js"></div>
-            <div class="flex-box"><img src="Images/vue-logo.jpeg" alt="Vue.js" class="skill vue"></div>
+    <div id="Contact" class="container">
+        <div class="outer-box">
+            <button class="icons">
+                <img class="YouTube" src="images/Gmail.png" alt="YouTube">
+            </button>
+            <p>Gmail</p> 
         </div>
-    </main>
+
+        <div class="outer-box">
+            <button class="icons">
+                <img class="YouTube" src="images/twitter.jpg" alt="Gmail">
+            </button> 
+            <p>Twitter</p>
+        </div>
+
+        <div class="outer-box">
+            <button class="icons">
+                <img class="YouTube" src="images/facebook.jpg" alt="YouTube">
+            </button> 
+            <p>Facebook</p>
+        </div>
+
+        <div class="outer-box">
+            <button class="icons">
+                <img class="YouTube" src="images/call.png" alt="Gmail">
+            </button> 
+            <p>Phone</p>
+        </div>
+
+    </div>
+
 </body>
 </html>
